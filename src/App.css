@@ -801,6 +801,21 @@ body, html, #root, .main-wrapper {
   font-size: 0.9rem;
 }
 
+.legal-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legal-links a {
+  color: #93c5fd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+  color: white;
+}
+
 /* Update responsive styles */
 @media (max-width: 768px) {
   .footer {
@@ -2454,4 +2469,3 @@ textarea {
     height: 18px;
   }
 }
-
